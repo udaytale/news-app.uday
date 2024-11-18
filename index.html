@@ -1,0 +1,198 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   News App
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100">
+  <header class="bg-blue-600 text-white p-4">
+   <div class="container mx-auto flex justify-between items-center">
+    <h1 class="text-2xl font-bold">
+     News App
+    </h1>
+    <nav>
+     <ul class="flex space-x-4">
+      <li>
+       <a class="hover:underline" href="#">
+        Home
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        World
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Politics
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Business
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Technology
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Sports
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Entertainment
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main class="container mx-auto p-4">
+   <section class="mb-8">
+    <h2 class="text-xl font-bold mb-4">
+     Top News
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+     <article class="bg-white p-4 rounded shadow">
+      <img alt="A detailed image of a bustling cityscape with skyscrapers and busy streets" class="w-full h-48 object-cover rounded mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/7dIfJRFft6qv20ovQWklf96CxhFOTTxYXDIRQFsztVRmFVknA.jpg" width="600"/>
+      <h3 class="text-lg font-bold mb-2">
+       City Life: The Hustle and Bustle
+      </h3>
+      <p class="text-gray-700">
+       Experience the vibrant life of the city with its towering skyscrapers and busy streets.
+      </p>
+     </article>
+     <article class="bg-white p-4 rounded shadow">
+      <img alt="A detailed image of a political rally with a large crowd and banners" class="w-full h-48 object-cover rounded mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/uMpjSte1zW1RHyWmgdxbuJIeU2TjEnleAuVdfaQjYeSOWUReE.jpg" width="600"/>
+      <h3 class="text-lg font-bold mb-2">
+       Political Rally: Voices of the People
+      </h3>
+      <p class="text-gray-700">
+       A deep dive into the recent political rally and the voices that are shaping the future.
+      </p>
+     </article>
+     <article class="bg-white p-4 rounded shadow">
+      <img alt="A detailed image of a business meeting with professionals discussing around a table" class="w-full h-48 object-cover rounded mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/JepEpRMN8Gw7RSmKImMHhNrfYCZjBthHrrPOBZH5FaMwiKyTA.jpg" width="600"/>
+      <h3 class="text-lg font-bold mb-2">
+       Business Strategies: Meeting of Minds
+      </h3>
+      <p class="text-gray-700">
+       Insights into the latest business strategies discussed by top professionals.
+      </p>
+     </article>
+     <article class="bg-white p-4 rounded shadow">
+      <img alt="A detailed image of a technological device with futuristic interface" class="w-full h-48 object-cover rounded mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/nUnfA8xE9X0WDaqOWpt3dxQGf6TWIDttgNpoaEjq4EgsiKyTA.jpg" width="600"/>
+      <h3 class="text-lg font-bold mb-2">
+       Tech Innovations: The Future is Here
+      </h3>
+      <p class="text-gray-700">
+       Explore the latest technological innovations that are set to change the world.
+      </p>
+     </article>
+     <article class="bg-white p-4 rounded shadow">
+      <img alt="A detailed image of a sports event with athletes in action" class="w-full h-48 object-cover rounded mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/drqlwkTvF97bL1Mm5sv8GDGF8H6drAIij15LLWNeECpTRF5JA.jpg" width="600"/>
+      <h3 class="text-lg font-bold mb-2">
+       Sports Highlights: Moments of Glory
+      </h3>
+      <p class="text-gray-700">
+       Relive the most exciting moments from recent sports events.
+      </p>
+     </article>
+     <article class="bg-white p-4 rounded shadow">
+      <img alt="A detailed image of a movie premiere with celebrities on the red carpet" class="w-full h-48 object-cover rounded mb-4" height="400" src="https://storage.googleapis.com/a1aa/image/Xmw6lA4ym3aKPhOOl8KVSvVt8C4GCl7DFmquSf24NrdTRF5JA.jpg" width="600"/>
+      <h3 class="text-lg font-bold mb-2">
+       Entertainment Buzz: Red Carpet Moments
+      </h3>
+      <p class="text-gray-700">
+       Catch up on the latest buzz from the entertainment world and red carpet events.
+      </p>
+     </article>
+    </div>
+   </section>
+   <section>
+    <h2 class="text-xl font-bold mb-4">
+     Latest News
+    </h2>
+    <div class="space-y-4">
+     <article class="bg-white p-4 rounded shadow flex items-start">
+      <img alt="A detailed image of a news anchor reporting live from the scene" class="w-24 h-24 object-cover rounded mr-4" height="150" src="https://storage.googleapis.com/a1aa/image/dAtOMVGvAh6KEN58dvNxHTyrhkMfnTcOU7tQMGaRidSaRF5JA.jpg" width="150"/>
+      <div>
+       <h3 class="text-lg font-bold mb-2">
+        Live Report: Breaking News
+       </h3>
+       <p class="text-gray-700">
+        Stay updated with the latest breaking news reported live from the scene.
+       </p>
+      </div>
+     </article>
+     <article class="bg-white p-4 rounded shadow flex items-start">
+      <img alt="A detailed image of a scientific research lab with researchers at work" class="w-24 h-24 object-cover rounded mr-4" height="150" src="https://storage.googleapis.com/a1aa/image/k3tahAcQKnZwEZDsjRy4EfA3x6059Ets1wdf2I9DyixpiKyTA.jpg" width="150"/>
+      <div>
+       <h3 class="text-lg font-bold mb-2">
+        Science Update: New Discoveries
+       </h3>
+       <p class="text-gray-700">
+        Discover the latest findings and breakthroughs in the world of science.
+       </p>
+      </div>
+     </article>
+     <article class="bg-white p-4 rounded shadow flex items-start">
+      <img alt="A detailed image of a cultural festival with colorful decorations and performances" class="w-24 h-24 object-cover rounded mr-4" height="150" src="https://storage.googleapis.com/a1aa/image/HZQQcYTdpHqzMVewfLY2Y6maoUoAepC5I5Zi4ipPYD4UFVknA.jpg" width="150"/>
+      <div>
+       <h3 class="text-lg font-bold mb-2">
+        Cultural Fest: Celebrating Diversity
+       </h3>
+       <p class="text-gray-700">
+        Join the celebration of cultural diversity at the latest cultural fest.
+       </p>
+      </div>
+     </article>
+     <article class="bg-white p-4 rounded shadow flex items-start">
+      <img alt="A detailed image of a financial chart showing market trends" class="w-24 h-24 object-cover rounded mr-4" height="150" src="https://storage.googleapis.com/a1aa/image/wIaRfXlInvVyKKHZ5NtXo8fpJTPtz7YTykteEGpvW6wcFVknA.jpg" width="150"/>
+      <div>
+       <h3 class="text-lg font-bold mb-2">
+        Market Trends: Financial Insights
+       </h3>
+       <p class="text-gray-700">
+        Get the latest insights into market trends and financial news.
+       </p>
+      </div>
+     </article>
+     <article class="bg-white p-4 rounded shadow flex items-start">
+      <img alt="A detailed image of a weather forecast map showing different weather conditions" class="w-24 h-24 object-cover rounded mr-4" height="150" src="https://storage.googleapis.com/a1aa/image/xHXxTfjPL2RCaSZlVbjhBKyKfElMeYYxbtf8wNsqIymfVUReE.jpg" width="150"/>
+      <div>
+       <h3 class="text-lg font-bold mb-2">
+        Weather Update: Stay Prepared
+       </h3>
+       <p class="text-gray-700">
+        Stay prepared with the latest weather updates and forecasts.
+       </p>
+      </div>
+     </article>
+    </div>
+   </section>
+  </main>
+  <footer class="bg-blue-600 text-white p-4 mt-8">
+   <div class="container mx-auto text-center">
+    <p>
+     © 2023 News App. All rights reserved.
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>
